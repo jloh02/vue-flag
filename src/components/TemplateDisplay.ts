@@ -5,7 +5,7 @@ const jsonData = await response.json();
 const template = jsonData.value;
 
 export default {
-  name: "TestComponent",
+  name: "TemplateDisplay",
   data() {
     return {
       flag: "FLAG{this_is_flag}",

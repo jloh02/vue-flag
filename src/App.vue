@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TestComponent from "./components/TestComponent";
+import TemplateDisplay from "./components/TemplateDisplay";
 import { ref } from "vue";
 
 const inputValue = ref("");
@@ -33,10 +33,10 @@ const handleSubmit = async () => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <input v-model="inputValue" type="text" />
+  <textarea v-model="inputValue" type="text" />
   <button @click="handleSubmit">Submit</button>
   <p>Submitted Template</p>
-  <TestComponent />
+  <TemplateDisplay />
 </template>
 
 <style scoped>
