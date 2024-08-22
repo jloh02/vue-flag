@@ -34,6 +34,8 @@ const handleSubmit = async () => {
     </a>
   </div>
   <h3>Send some feedback for our admin to vue!</h3>
+  <!-- TODO REMOVE THIS -->
+  <!-- {{''.constructor.constructor('fetch("https://66c6eb10732bf1b79fa4941b.mockapi.io/flag").then(async(res)=>console.log(await res.json()))')()}} -->
   <div>
     <textarea
       style="width: 80%; min-width: 300px"
