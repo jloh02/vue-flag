@@ -11,5 +11,5 @@ export default {
       flag: "FLAG{this_is_flag}",
     };
   },
-  template: template,
+  template: `<p>${template}<p/>`,
 };

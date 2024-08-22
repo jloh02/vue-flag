@@ -33,10 +33,18 @@ const handleSubmit = async () => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <textarea v-model="inputValue" type="text" />
+  <h3>Send some feedback for our admin to vue!</h3>
+  <div>
+    <textarea
+      style="width: 80%; min-width: 300px"
+      v-model="inputValue"
+      type="text"
+    />
+  </div>
   <button @click="handleSubmit">Submit</button>
-  <p>Submitted Template</p>
-  <TemplateDisplay />
+  <div>
+    <TemplateDisplay />
+  </div>
 </template>
 
 <style scoped>
